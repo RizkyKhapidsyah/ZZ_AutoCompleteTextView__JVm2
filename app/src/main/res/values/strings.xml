@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ZZ_AutoCompleteTextView__JVm</string>
+    <string name="Hint">Masukkan Nama.. (Lihat Input Value)</string>
+    <string name="Reset">Reset</string>
+</resources>

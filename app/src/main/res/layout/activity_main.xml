@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/ACTV_Demo_IDXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/Hint"
+        android:padding="15dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/TV_AutoText_IDXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/B_Reset_IDXML"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Reset" />
+
+</LinearLayout>
